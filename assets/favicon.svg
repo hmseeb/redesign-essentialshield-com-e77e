@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Essential Shield">
+  <rect width="64" height="64" rx="14" fill="#0d2a20"/>
+  <path d="M32 10 52 17v14c0 12-8.4 20.2-20 23-11.6-2.8-20-11-20-23V17L32 10z" fill="#46b97c"/>
+  <path d="M32 21c-4.6 3.5-9 7.4-9 12.8 0 5 4 8.2 9 8.2s9-3.2 9-8.2C41 28.4 36.6 24.5 32 21z" fill="#0d2a20"/>
+</svg>
