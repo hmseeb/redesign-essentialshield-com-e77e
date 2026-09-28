@@ -88,6 +88,21 @@ ul { margin: 0 0 1.1em; padding-left: 1.15rem; }
 .section--forest h3,
 .section--forest h4 { color: #fff; }
 
+/* Light card surfaces sit on top of the dark section, so their text must stay
+   dark — otherwise the inherited #fff headings become invisible on white. */
+.section--forest .card,
+.section--forest .quote,
+.section--forest .panel { color: var(--ink-2); }
+.section--forest .card h2,
+.section--forest .card h3,
+.section--forest .card h4,
+.section--forest .quote h3,
+.section--forest .panel h2,
+.section--forest .panel h3,
+.section--forest .panel h4 { color: var(--ink); }
+.section--forest .card .lead,
+.section--forest .panel .lead { color: var(--ink-2); }
+
 .skip-link {
   position: absolute;
   left: -9999px;
