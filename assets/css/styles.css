@@ -160,11 +160,17 @@ ul { margin: 0 0 1.1em; padding-left: 1.15rem; }
   color: var(--ink);
 }
 .btn--ghost:hover { border-color: var(--forest); color: var(--forest); }
-.section--forest .btn--ghost {
+.section--forest .btn--ghost,
+.hero .btn--ghost,
+.page-hero .btn--ghost,
+.cta-band .btn--ghost {
   border-color: rgba(255, 255, 255, .35);
   color: #fff;
 }
-.section--forest .btn--ghost:hover {
+.section--forest .btn--ghost:hover,
+.hero .btn--ghost:hover,
+.page-hero .btn--ghost:hover,
+.cta-band .btn--ghost:hover {
   border-color: #fff;
   background: rgba(255, 255, 255, .08);
   color: #fff;
